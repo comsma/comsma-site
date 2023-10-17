@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NeueMontreal";
+  font-weight: 400;
+  src: url("/fonts/PPNeueMontreal-Regular.woff2")format("woff2");
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  font-weight: 700;
+  src: url("/fonts/PPNeueMontreal-Bold.woff2")format("woff2");
+}
+
+html {
+  font-family: NeueMontreal;
+
+  background-color: #0C2D2F;
+}
