@@ -1,8 +1,8 @@
 export default function Biography() {
     return (
-        <div className={"mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 mt-20 gap-10"}>
+        <div className={"mx-auto max-w-2xl place-items-center grid grid-cols-1 md:grid-cols-2 mt-20 gap-10"}>
             <div className={"col-span-1 flex flex-col justify-around p-5"}>
-                <div className={"text-3xl text-primary leading-relaxed tracking-wider"}>
+                <div className={"text-2xl text-secondary leading-relaxed"}>
                     <h1>
                         Hello I'm
                     </h1>

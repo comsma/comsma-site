@@ -15,7 +15,10 @@
 }
 
 html {
-  font-family: NeueMontreal;
+  font-family: NeueMontreal, sans-serif;
 
-  background-color: #0C2D2F;
+}
+
+:root {
+  @apply bg-primary
 }
