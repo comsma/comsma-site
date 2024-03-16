@@ -16,9 +16,26 @@
 
 html {
   font-family: NeueMontreal, sans-serif;
-
 }
-
 :root {
-  @apply bg-primary
+  @apply bg-[#F4F1F0]
 }
+
+@layer base {
+  :root {
+    --text: 194 18% 14%;
+    --background: 177 12% 65%;
+    --primary: 163 16% 83%;
+    --secondary: 166 20% 78%;
+    --accent: 190 29% 20%;
+  }
+  .dark {
+    --text: 194 18% 86%;
+    --background: 177 12% 35%;
+    --primary: 163 16% 17%;
+    --secondary: 166 20% 22%;
+    --accent: 190 29% 80%;
+  }
+}
+
+

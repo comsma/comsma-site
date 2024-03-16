@@ -4,10 +4,38 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#4F6564",
-        "secondary": "#ACBEBA"
-      }
+        primary: {
+            100:"#E5ECEE",
+            200: "#C7D6DB",
+            300: "#A3C3C8",
+700:"#0C2D2F",
+            800: "#062021",
+            900: "#031718"
+        },
+        'text': 'hsl(var(--text))',
+        'background': 'hsl(var(--background))',
+        'secondary': 'hsl(var(--secondary))',
+        'accent': 'hsl(var(--accent))',
+      },
     },
+    fontSize: {
+      xs: '8px',
+      sm: '12px',
+      base: '16px',
+      xl: '24px',
+      '2xl': '32px',
+      '3xl': '48px',
+      '4xl': '64px',
+    },
+    fontFamily: {
+      heading: 'NeueMontreal',
+    },
+    fontWeight: {
+      normal: '400',
+      bold: '700',
+    },
+
+
   },
   plugins: [],
 };
