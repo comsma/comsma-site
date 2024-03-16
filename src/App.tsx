@@ -23,7 +23,7 @@ function Projects() {
                       <img alt={""} src={'/images/projects/yahtzmen.webp'} className={" w-64px"}/>
 
                   </div>
-                  <div className={"pl-5 flex-1 text-xs md:text-sm pt-2"}>
+                  <div className={"pl-5 flex-1 text-base md:text-sm pt-2"}>
                       <h1 className={"font-bold"}>Yahtzmen Furnishings</h1>
                       <p className={""}>The project is an online store offering product management, catalogue navigation, and a
                           checkout system. It employs the Next.js framework for the frontend and a GoLang-based API,
@@ -35,7 +35,7 @@ function Projects() {
                       <img alt={""} src={'/images/projects/DC-Logo.png'} className={"w-auto filter"}/>
 
                   </div>
-                  <div className={"pl-5 flex-1 text-xs md:text-sm pt-2"}>
+                  <div className={"pl-5 flex-1 text-base md:text-sm pt-2"}>
                       <h1 className={"font-bold"}>Dyer Construction</h1>
                       <p>I developed a project management portal for Dyer Construction using languages PHP and Typescript with technologies such as Laravel, React, Tailwind, and MySQL. The portal allows employees to manage what accounts can view and manage, create new project objects, and upload files to the projects.</p>
                   </div>
