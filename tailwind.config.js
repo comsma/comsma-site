@@ -18,15 +18,6 @@ export default {
         'accent': 'hsl(var(--accent))',
       },
     },
-    fontSize: {
-      xs: '8px',
-      sm: '12px',
-      base: '16px',
-      xl: '24px',
-      '2xl': '32px',
-      '3xl': '48px',
-      '4xl': '64px',
-    },
     fontFamily: {
       heading: 'NeueMontreal',
     },
