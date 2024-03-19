@@ -5,28 +5,28 @@ export default {
     extend: {
       colors: {
         primary: {
-            100:"#E5ECEE",
-            200: "#C7D6DB",
-            300: "#A3C3C8",
-700:"#0C2D2F",
-            800: "#062021",
-            900: "#031718"
+          100: "#E5ECEE",
+          200: "#C7D6DB",
+          300: "#A3C3C8",
+          700: "#0C2D2F",
+          800: "#062021",
+          900: "#031718",
         },
-        'text': 'hsl(var(--text))',
-        'background': 'hsl(var(--background))',
-        'secondary': 'hsl(var(--secondary))',
-        'accent': 'hsl(var(--accent))',
       },
     },
-    fontFamily: {
-      heading: 'NeueMontreal',
+    fontSize: {
+      sm: '0.800rem',
+      base: '1rem',
+      xl: '1.250rem',
+      '2xl': '1.563rem',
+      '3xl': '1.954rem',
+      '4xl': '2.442rem',
+      '5xl': '3.053rem',
     },
     fontWeight: {
-      normal: '400',
-      bold: '700',
+      normal: "400",
+      bold: "700",
     },
-
-
   },
   plugins: [],
 };
