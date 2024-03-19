@@ -2,11 +2,8 @@
   "name": "comsma",
   "private": true,
   "version": "0.0.0",
-  "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781",
+  "packageManager": "npm@7.24.2+sha256.5b9eeea011f8bc3b76e55cc33339e87213800677f37e0756ad13ef0e9eaccd64",
   "type": "module",
-  "engines": {
-    "yarn": "^4.1.1"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
