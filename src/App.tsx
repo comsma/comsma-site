@@ -1,11 +1,19 @@
 import Biography from "./components/Biography.tsx";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card.tsx";
 
 function App() {
   return (
-    <>
-      <Biography />
-      <Projects />
-    </>
+    <div className={"bg-secondary text-secondary-foreground"}>
+      <div className={"max-w-3xl mx-auto"}>
+        <Biography />
+        <Projects />
+      </div>
+    </div>
   );
 }
 
@@ -27,26 +35,23 @@ const projectData = [
 ];
 function Projects() {
   return (
-    <div className={"p-5 max-w-3xl mx-auto"}>
-      <h1 className={"font-bold text-2xl text-primary-900"}>Projects</h1>
-      <div className={"pt-5"}>
+    <div className={"mx-auto"}>
+      <h1 className={"font-bold text-2xl "}>Projects</h1>
+      <div className={"pt-5 flex flex-col gap-4"}>
         {/*Project card*/}
         {projectData.map((project, index) => {
           return (
-            <div
-              key={index}
-              className={
-                "bg-white rounded-md shadow-lg p-5 mt-4 justify-center items-center flex flex-col md:flex-row"
-              }
-            >
-              <div className={"w-[60px] pt-2 aspect-square"}>
-                <img alt={""} src={project.logo} className={" w-64px"} />
-              </div>
-              <div className={"pl-5 flex-1 pt-2"}>
-                <h1 className={"font-bold text-xl"}>{project.title}</h1>
-                <p className={"text-lg"}>{project.description}</p>
-              </div>
-            </div>
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle>{project.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className={"w-[60px] pt-2 aspect-square"}>
+                  <img alt={""} src={project.logo} className={" w-64px"} />
+                </div>
+                {project.description}
+              </CardContent>
+            </Card>
           );
         })}
         {/*    <div className={"bg-white rounded-md shadow-lg p-5 justify-center items-center flex flex-col md:flex-row"}>*/}
