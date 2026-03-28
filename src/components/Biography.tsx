@@ -16,7 +16,7 @@ export default function Biography() {
           className={"flex flex-row gap-8 items-stretch"}
         >
           <Button className={"text-foreground"} variant={"link"} size={"icon"} asChild>
-            <a href={"https://www.linkedin.com/in/comsma/"} target={"_blank"}>
+            <a href={"https://www.linkedin.com/in/collin-smallegan/"} target={"_blank"}>
               <LinkedInLogoIcon className={"w-6 h-6"} />
             </a>
           </Button>
