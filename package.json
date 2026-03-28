@@ -39,5 +39,8 @@
     "typescript-eslint": "^8.57.2",
     "vite": "7.1.11"
   },
-  "packageManager": "yarn@4.13.0"
+  "packageManager": "yarn@4.13.0",
+  "engines": {
+    "node": "25.x"
+  }
 }
